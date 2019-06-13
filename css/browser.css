@@ -1,0 +1,332 @@
+:root {
+	--selected-conversation-background: linear-gradient(hsla(209, 110%, 45%, 0.9), hsla(209, 110%, 42%, 0.9));
+	--selected-conversation-background-inactive: #d2d2d2;
+	--black: #000;
+}
+
+html {
+	overflow: hidden;
+}
+
+/* Add OS-specific fonts */
+body {
+	font-family:
+		-apple-system,
+		BlinkMacSystemFont,
+		'Segoe UI',
+		Roboto,
+		Oxygen-Sans,
+		Ubuntu,
+		Cantarell,
+		'Helvetica Neue',
+		sans-serif,
+		'Apple Color Emoji',
+		'Segoe UI Emoji',
+		'Segoe UI Symbol' !important;
+	text-rendering: optimizeLegibility !important;
+	font-feature-settings: 'liga', 'clig', 'kern';
+}
+
+/* Bind the toolbar as the window's draggable region */
+._36ic._5l-3,
+._5742,
+._673w {
+	-webkit-app-region: drag;
+}
+
+/* Fix broken scroll arrows on message input on Windows */
+._kmc {
+	overflow-y: hidden !important;
+}
+
+/* Exclude `New Messages`, `Voice Call`, `Video Call` & `Conversation Info` buttons from the draggable region */
+._36ic._5l-3 ._30yy,
+._5742 ._30yy,
+._673w ._30yy {
+	-webkit-app-region: no-drag;
+	-webkit-user-drag: none;
+}
+
+/* Window wrapper */
+._4sp8 {
+	min-width: 0 !important;
+}
+
+/* The width of the popup should not exceed the width of the window */
+._59s7 {
+	max-width: 100% !important;
+}
+
+/* Hide sidebar (optionally) */
+html.sidebar-hidden ._1enh {
+	display: none;
+}
+
+/* A utility class for temporarily hiding all dropdown menus */
+html.hide-dropdowns .uiContextualLayerPositioner {
+	visibility: hidden !important;
+}
+
+/* Hide footer at login view */
+._210n {
+	display: none;
+}
+
+/* First time user popup */
+._s15 {
+	display: none;
+}
+
+/* "Keep the conversation going" bar */
+._s15 {
+	display: none !important;
+}
+
+/* Right column */
+._1q5- {
+	border-left: 1px solid rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Hide settings icon */
+._4kzu {
+	visibility: hidden !important;
+	display: block !important;
+	width: 0 !important;
+	height: 0 !important;
+}
+
+/* Hide title */
+._1tqi {
+	display: none;
+}
+
+/* Moves text to the left when window width < 473px */
+._673w ._17w2 {
+	display: block !important;
+}
+
+/* Vertically center chat options */
+._fl2 {
+	padding: 0 !important;
+	top: 4px !important;
+	right: 6px !important;
+}
+
+/* Adjust `To` field for narrower titlebar */
+._2y8y {
+	min-height: 40px !important;
+	padding: 8px !important;
+}
+
+/* Adjust `Last Seen/Active` subheading for narrower titlebar */
+._2v6o {
+	margin-top: 0 !important;
+}
+
+/* `New messages` popup */
+._2xhi._5vn4 ._2xhj {
+	display: none;
+}
+
+/* Shared photos: fix video width */
+._4-og ._4-od {
+	width: 100% !important;
+}
+
+/* Message box: hide bottom white line */
+.chatAttachmentShelf:empty {
+	display: none !important;
+}
+
+/* Message box: emoji picker selected tab */
+._1uwz._1uwx {
+	border-radius: 4pt;
+}
+
+/* Preferences dialog: hide unnecessary options */
+._374b:nth-child(5) {
+	display: none !important;
+}
+
+/* macOS: Move the contextual back button so it's not obstructed by the native traffic lights */
+.os-darwin ._30yy._2oc9 {
+	margin-left: 65px !important;
+}
+
+@media all and (max-width: 700px) {
+	/* Make right column flexible in compact mode */
+	._1q5- {
+		position: absolute !important;
+		right: 0 !important;
+		left: 74px !important;
+		height: 100% !important;
+	}
+
+	/* Fix for left space in compact mode */
+	html.sidebar-hidden ._1q5- {
+		left: 0 !important;
+	}
+
+	/* `New Conversation` icon */
+	._30yy[href='/new'] {
+		display: none !important;
+	}
+
+	/* Fix the `New Conversation` button overlapping the traffic light controls on macOS */
+	html.os-darwin ._36ic._5l-3 {
+		margin-top: 30px;
+	}
+}
+
+/* Don't show outline on clickable elements except in the delete/mute modal so that we know what we are selecting */
+a,
+*[role='button'] {
+	outline: none !important;
+}
+
+/* Remove white background in Preferences */
+._1u5d {
+	background-color: transparent !important;
+}
+
+/* Fix incorrect border radius in Preferences */
+._4eby {
+	border-radius: 2px !important;
+}
+
+/* Contact list: latest message, under contact name */
+._1ht1 ._1htf {
+	color: rgba(0, 0, 0, 0.7);
+}
+
+/* Allow scrolling of "Edit Nicknames" dialog */
+._4h9n ._4h9o {
+	max-height: 100% !important;
+	height: 280px;
+}
+
+/* Hide hidden accessibility elements so they're not included in copy-pasting of chat logs */
+.accessible_elem {
+	display: none !important;
+}
+
+[role='navigation'] a {
+	cursor: default !important;
+}
+
+/* Fix story color */
+._1sk6 {
+	background: inherit !important;
+}
+._1suk {
+	color: inherit !important;
+}
+/* Hide Messenger icon when story is open */
+._7yz {
+	background: none !important;
+}
+/* Title centered */
+._6f6l {
+	display: block !important;
+}
+
+/* Fix border width and color on links */
+.__6j._43kk {
+	border-width: 1px !important;
+	border-color: rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Contact list: unread */
+._1ht3::before {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 3px;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 8px;
+	height: 8px;
+	background-color: var(--blue);
+	border-radius: 8px;
+}
+
+/* Contact list: person (selected) */
+._1ht1._1ht2 ._6zkc {
+	background-color: transparent !important;
+}
+
+._1ht1._1ht2 {
+	background: var(--selected-conversation-background) !important;
+}
+
+._1ht1._1ht2 * {
+	color: rgba(255, 255, 255, 0.8);
+}
+
+/* Contact list: person (selected) window inactive */
+html.is-window-inactive ._1ht1._1ht2 {
+	background: var(--selected-conversation-background-inactive) !important;
+	color: var(--black) !important;
+}
+html.is-window-inactive ._1ht1._1ht2 * {
+	color: rgba(0, 0, 0, 0.8);
+}
+
+/* Remove top Facebook cookie banner */
+.fbPageBanner {
+	display: none !important;
+}
+
+/* Message composer buttons */
+a._4rv6, /* "Choose a sticker" */
+a._4ce_ { /* "Play a game" */
+	opacity: 1 !important;
+	filter: invert(0.66);
+}
+
+/* Toggle message buttons */
+body ._4_j4 ._39bj {
+	display: none;
+}
+
+body.show-message-buttons ._4_j4 ._39bj {
+	display: flex;
+}
+
+/* Window background, affects vibrant views and Settings open/close transition */
+._2sdm {
+	background-color: transparent !important;
+}
+
+/* Background under the typing indicator */
+._4gd0 {
+	background-color: transparent !important;
+}
+
+/* Typing indicator */
+._4a0v._1x3z {
+	display: flex;
+	justify-content: center;
+}
+
+/* Settings dialog */
+._4eby {
+	max-height: 80vh;
+	overflow-y: auto;
+}
+
+/* Hide sidebar heading */
+._6-xo {
+	display: none !important;
+}
+
+/* Hide profile picture */
+._7sta._7stb._7t0d {
+	display: none !important;
+}
+
+/* Adjust position of sidebar back button */
+._30yy._6-xf._6-xg {
+	position: relative;
+	left: 100px;
+}
