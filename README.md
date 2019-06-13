@@ -35,17 +35,17 @@ Download the latest version on the [website](https://www.broxme.com/febbu_massan
 
 ### Linux
 
-[**Download**](https://github.com/broxme/febbu_massanger/releases/latest) the linux zip file or appimage 
+[**Download**](https://github.com/broxme/febbu_massanger/releases/latest) the linux .zip file or appimage 
 
 ### Windows
 
-[**Download**](https://github.com/sindresorhus/caprine/releases/latest) the `.exe` file.
+[**Download**](https://github.com/sindresorhus/caprine/releases/latest) the `.exe` file or .zip file.
 
 ### Mac
 
 Febbu Massanger for Mac will be realese soon .... 
-<br />
-###------###
+<br/>
+### Taskbar settings
 *For taskbar notification badges to work on Windows 10, you'll need to [enable them in Taskbar Settings](https://www.tenforums.com/tutorials/48186-taskbar-buttons-hide-show-badges-windows-10-a.html).*
 
 
@@ -65,7 +65,6 @@ On *macOS*, you can toggle the window vibrancy effect in the `View` menu.
 
 ### Privacy
 
-<img src="media/screenshot-block-typing-indicator.png" width="626">
 
 You can choose to prevent people from knowing when you have seen a message and when you are currently typing. These settings are available under the `Febbu Massanger`/`File` menu.
 
