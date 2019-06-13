@@ -35,11 +35,15 @@ Download the latest version on the [website](https://www.broxme.com/febbu_massan
 
 ### Linux
 
-[**Download**](https://github.com/broxme/febbu_massanger/releases/latest) the `.AppImage` or `.deb` file.
+[**Download**](https://github.com/broxme/febbu_massanger/releases/latest) the linux zip file or appimage 
 
 ### Windows
 
 [**Download**](https://github.com/sindresorhus/caprine/releases/latest) the `.exe` file.
+
+### Mac
+
+Febbu Massanger for Mac will be realese soon .... 
 
 *For taskbar notification badges to work on Windows 10, you'll need to [enable them in Taskbar Settings](https://www.tenforums.com/tutorials/48186-taskbar-buttons-hide-show-badges-windows-10-a.html).*
 
@@ -191,3 +195,4 @@ Then edit the automatically created GitHub Releases draft and publish.
 ## Disclaimer
 
 Febbu Massanger is a third-party app and is not affiliated with Facebook. Febbu Massanger build based on open source github project Caprine https://github.com/sindresorhus/caprine
+Some of screenshot image are from https://github.com/sindresorhus/caprine.
