@@ -35,11 +35,11 @@ Download the latest version on the [website](https://www.broxme.com/febbu_massan
 
 ### Linux
 
-[**Download**](https://github.com/broxme/febbu_massanger/releases/latest) the linux .zip file or appimage 
+[**Download**](https://github.com/broxme/febbu-massanger/releases/latest) the linux .zip file or appimage 
 
 ### Windows
 
-[**Download**](https://github.com/sindresorhus/caprine/releases/latest) the `.exe` file or .zip file.
+[**Download**](https://github.com/broxme/febbu-massanger/releases/latest) the `.exe` file or .zip file.
 
 ### Mac
 
