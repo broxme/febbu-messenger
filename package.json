@@ -1,10 +1,10 @@
 {
-	"name": "febbu-massanger",
-	"productName": "Febbu Massanger",
-	"version": "1.0.2",
+	"name": "febbu-messenger",
+	"productName": "Febbu Messenger",
+	"version": "1.0.3",
 	"description": "Febbu Messenger For Facebook",
 	"license": "MIT",
-	"repository": "fahimislamsabuj/febbu-massanger",
+	"repository": "broxme/febbu-messenger",
 	"author": {
 		"name": "BroxMe Technology",
 		"email": "developer@broxme.com",
