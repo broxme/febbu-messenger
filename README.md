@@ -102,7 +102,7 @@ Confirmation before sending images from the clipboard, to prevent accidental cop
 
 ### Work Chat support
 
-Support for Work Chat: Messenger for [Workplace](https://www.facebook.com/workplace). You can switch to it in the `Febbu Massanger`/`File` menu.
+Support for Work Chat: Messenger for [Workplace](https://www.facebook.com/workplace). You can switch to it in the `Febbu Messenger`/`File` menu.
 
 <div align="center"><img src="media/screenshot-work-chat.png" width="788"></div>
 
