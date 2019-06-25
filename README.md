@@ -195,5 +195,4 @@ Then edit the automatically created GitHub Releases draft and publish.
 ## Disclaimer
 
 Febbu Messenger is a third-party app and is not affiliated with Facebook. Febbu Messenger build based on open source github project Caprine https://github.com/sindresorhus/caprine
-<br>
-Some of screenshot image are from https://github.com/sindresorhus/caprine.
+
