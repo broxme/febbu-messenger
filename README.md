@@ -1,11 +1,11 @@
-# febbu-massanger
+# febbu-messenger
 An unofficial multiplatform and privacy-focused Facebook Messenger app with many useful features .
 
-**[Website](https://www.broxme.com/febbu_massanger)**
+**[Website](https://www.broxme.com/febbu_messenger)**
 
 <br>
 
-<a href="https://github.com/broxme/febbu-massanger/releases/latest">
+<a href="https://github.com/broxme/febbu-messenger/releases/latest">
 	<img src="media/screenshot.png" width="846">
 </a>
 
@@ -31,15 +31,15 @@ An unofficial multiplatform and privacy-focused Facebook Messenger app with many
 
 *macOS 10.10+, Linux, and Windows 7+ are supported (64-bit only).*
 
-Download the latest version on the [website](https://www.broxme.com/febbu_massanger) or below.
+Download the latest version on the [website](https://www.broxme.com/febbu_messenger) or below.
 
 ### Linux
 
-[**Download**](https://github.com/broxme/febbu-massanger/releases/latest) the linux .zip file or appimage 
+[**Download**](https://github.com/broxme/febbu-messenger/releases/latest) the linux .zip file or appimage 
 
 ### Windows
 
-[**Download**](https://github.com/broxme/febbu-massanger/releases/latest) the `.exe` file or .zip file.
+[**Download**](https://github.com/broxme/febbu-messenger/releases/latest) the `.exe` file or .zip file.
 
 ### Mac
 
@@ -66,11 +66,11 @@ On *macOS*, you can toggle the window vibrancy effect in the `View` menu.
 ### Privacy
 
 
-You can choose to prevent people from knowing when you have seen a message and when you are currently typing. These settings are available under the `Febbu Massanger`/`File` menu.
+You can choose to prevent people from knowing when you have seen a message and when you are currently typing. These settings are available under the `Febbu Messenger`/`File` menu.
 
 ### Mute desktop notifications
 
-You can quickly disable receiving notifications from the `Febbu Massanger`/`File` menu or the Dock on macOS.
+You can quickly disable receiving notifications from the `Febbu Messenger`/`File` menu or the Dock on macOS.
 
 ### Prevents link tracking
 
@@ -117,7 +117,7 @@ You can send code blocks by using [Markdown syntax](https://github.com/adam-p/ma
 
 When closing the window, the app will by default continue running in the background, in the dock on macOS and the tray on Linux/Windows. Right-click the dock/tray icon and choose `Quit` to completely quit the app. On macOS, click the dock icon to show the window. On Linux, right-click the tray icon and choose `Toggle` to toggle the window. On Windows, click the tray icon to toggle the window.
 
-Note that you can change the behavior of Caprine so that the app closes when the window is closed. For this, you'll need to go to the settings and click on `Quit on Window Close`.
+Note that you can change the behavior of Febbu Messenger so that the app closes when the window is closed. For this, you'll need to go to the settings and click on `Quit on Window Close`.
 
 ### Quick access to conversations from the Dock menu *(macOS only)*
 
@@ -129,7 +129,7 @@ Note that you can change the behavior of Caprine so that the app closes when the
 
 ### Custom styles
 
-Advanced users can modify the colors/styles of Caprine. Click the menu item `Febbu Massanger`/`File` → `Febbu Massanger Settings` → `Advanced` → `Custom Styles` and a CSS file will open up in your default editor.
+Advanced users can modify the colors/styles of Caprine. Click the menu item `Febbu Messenger`/`File` → `Febbu Messenger Settings` → `Advanced` → `Custom Styles` and a CSS file will open up in your default editor.
 
 ### Keyboard shortcuts
 
@@ -194,6 +194,6 @@ Then edit the automatically created GitHub Releases draft and publish.
 
 ## Disclaimer
 
-Febbu Massanger is a third-party app and is not affiliated with Facebook. Febbu Massanger build based on open source github project Caprine https://github.com/sindresorhus/caprine
+Febbu Messenger is a third-party app and is not affiliated with Facebook. Febbu Messenger build based on open source github project Caprine https://github.com/sindresorhus/caprine
 <br>
 Some of screenshot image are from https://github.com/sindresorhus/caprine.
