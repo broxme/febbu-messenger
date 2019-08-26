@@ -1,7 +1,7 @@
 # febbu-messenger
 An unofficial multiplatform and privacy-focused Facebook Messenger app with many useful features .
 
-**[Website](https://www.broxme.com/febbu_messenger)**
+**[Website](https://www.broxme.com/)**
 
 <br>
 
@@ -31,7 +31,7 @@ An unofficial multiplatform and privacy-focused Facebook Messenger app with many
 
 *macOS 10.10+, Linux, and Windows 7+ are supported (64-bit only).*
 
-Download the latest version on the [website](https://www.broxme.com/febbu_messenger) or below.
+Download the latest version on the [website](https://www.broxme.com/) or below.
 
 ### Linux
 
