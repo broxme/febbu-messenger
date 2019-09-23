@@ -119,13 +119,6 @@ When closing the window, the app will by default continue running in the backgro
 
 Note that you can change the behavior of Febbu Messenger so that the app closes when the window is closed. For this, you'll need to go to the settings and click on `Quit on Window Close`.
 
-### Quick access to conversations from the Dock menu *(macOS only)*
-
-<img src="media/screenshot-dock-menu.png" width="319" height="404">
-
-### Touch Bar support *(macOS only)*
-
-<img src="media/screenshot-touchbar.png" width="1085">
 
 ### Custom styles
 
